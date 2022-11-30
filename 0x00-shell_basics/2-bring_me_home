@@ -1,2 +1,2 @@
-#!/bin/bash vi bashrc #add this code and save 
-shopt -s autocd #then run 'source bashrc' type ~ to change directory to home
+#!/bin/bash 
+cd
