@@ -7,13 +7,13 @@ while [ $count -le 20 ]
 do
   if [ $count -eq 4 ]
   then
-    echo "4 and then bad luck from China"
+    echo "bad luck from China"
   elif [ $count -eq 9 ]
   then
-    echo "9 and then bad luck from Japan"
+    echo "bad luck from Japan"
   elif [ $count -eq 17 ]
   then
-    echo "17 and then bad luck from Italy"
+    echo "bad luck from Italy"
   else
     echo $count
   fi
