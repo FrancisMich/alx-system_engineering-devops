@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#Dig the data
+
+awk '{print $1 " " $9}' apache-access.log |
+
+# Sort and group by IP and HTTP status code using uniq and sort
+sort | uniq -c | sort -nr |
+
+`awk '{print $1 " " $2 " " $3}'
