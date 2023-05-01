@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #The content of the current directory in a list format
 
-for file in $(ls -p | grep -v / | grep -v "^\."); do
-    filename=$(echo $file | cut -d "-" -f 2-)
-    echo "$filename"
+for i in *
+do
+	echo "$i" | cut -d'-' -f2
 done
